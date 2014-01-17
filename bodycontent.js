@@ -420,7 +420,8 @@ function writeTabs() {
         "pivot-spanish-munchers-verbs": "Spanish Munchers: Verbs",
         "pivot-spanish-munchers-nouns": "Spanish Munchers: Nouns",
         "pivot-acorns": "Acorns",
-        "pivot-lettermind": "Lettermind"
+        "pivot-lettermind": "Lettermind",
+        "pivot-shibacatch": "Shiba Catch"
     };
 
     var partnership = getPartnership(getPageAttribute("partner"));
@@ -455,7 +456,8 @@ function writeSections() {
                 makeStartPivotURLWithIsTopLevel("pivot-spanish-munchers-verbs", false) + makeImage("spanishmunchersverbs.png") + makeText("Spanish Munchers: Verbs tests conjugation of common Spanish verbs") + makeEndPivotURL(),
                 makeStartPivotURLWithIsTopLevel("pivot-spanish-munchers-nouns", false) + makeImage("spanishmunchersnouns.png") + makeText("Spanish Munchers: Nouns tests gender of common Spanish nouns") + makeEndPivotURL(),
                 makeStartPivotURLWithIsTopLevel("pivot-acorns", false) + makeImage("acorns.png") + makeText("Blow off steam by catching acorns!") + makeEndPivotURL(),
-                makeStartPivotURLWithIsTopLevel("pivot-lettermind", false) + makeImage("lettermind-short.png") + makeText("Lettermind is a word game inspired by Mastermind") + makeEndPivotURL()
+                makeStartPivotURLWithIsTopLevel("pivot-lettermind", false) + makeImage("lettermind-short.png") + makeText("Lettermind is a word game inspired by Mastermind") + makeEndPivotURL(),
+                makeStartPivotURLWithIsTopLevel("pivot-shibacatch", false) + makeImage("shibacatch.png") + makeText("Shiba Inu eats only the best words!") + makeEndPivotURL()
                 ]));
 
     endRow();
@@ -632,6 +634,25 @@ function writeSections() {
     endSection();
 
 
+    startSection("pivot-shibacatch", "Shiba Catch");
+
+    startRow();
+    document.write(makeTableWithStyle("invisibleTableNormalText", 3, [
+                makeImage("shibacatch.png"),
+
+                makeText(
+                    makeURL("Available on iOS (iPhone, iPad, iPod Touch)!\n", "https://itunes.apple.com/us/app/shiba-catch/id796319381?ls=1&mt=8") +
+                    "Avoid the bad words in red, eat the good words, and outwit the cat!\n" +
+                    "Everyone's favorite Shiba Inu, Shibe, says:\n" +
+                    "&nbsp;&nbsp;&nbsp;&nbsp;wow\n" +
+                    "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;amaze\n" + 
+                    "&nbsp;&nbsp;&nbsp;&nbsp;such app\n" +
+                    "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;very doge"
+                    )
+                ]));
+    endRow();
+
+    endSection();
 }
 
 

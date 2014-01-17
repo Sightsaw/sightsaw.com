@@ -22,7 +22,8 @@ function getPartnership(partner) {
                             "pivot-spanish-munchers-verbs",
                             "pivot-spanish-munchers-nouns",
                             "pivot-acorns",
-                            "pivot-lettermind"
+                            "pivot-lettermind",
+                            "pivot-shibacatch"
                           ]
                             
                }
