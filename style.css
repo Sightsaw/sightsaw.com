@@ -7,9 +7,9 @@ caption,th,td{text-align:center;font-weight:normal;vertical-align:middle;padding
 .styledTable th{border: 1px solid #303030; background-color:#eee;font-size:1em}
 .styledTableHeader {background-color:#D6D6D6}
 .styledTableLeft {max-width: 200px; background-color:#D6D6D6}
-.invisibleTable table{table-layout:fixed;border-spacing:0px;border-collapse:collapse;border: 0;background-color:transparent;font-size:.833em}
-.invisibleTable td{border-spacing:0px;border: 0;padding:5px;background-color:transparent;font-size:.833em}
-.invisibleTable th{border: 0;background-color:transparent;font-size:.833em}
+.invisibleTable table{table-layout:fixed;border-spacing:0px;border-collapse:collapse;border: 0;background-color:transparent;font-size:.733em}
+.invisibleTable td{border-spacing:0px;border: 0;padding:5px;background-color:transparent;font-size:.733em}
+.invisibleTable th{border: 0;background-color:transparent;font-size:.733em}
 .invisibleTableHeader td{border:0;background-color:transparent}
 .invisibleTableLeft td{border:0;background-color:transparent}
 .invisibleTableNormalText table{border: 0; background-color:transparent;}
